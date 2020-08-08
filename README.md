@@ -8,7 +8,7 @@ The 4 components to running Chainlink on the ELASTOS Sidechain are:
 - On-chain contracts & Job configuration
 
 ## Chainlink Node
-The Chainlink node listens for on-chain requests for data and responds with the requested data in exchange for payment in LINK. To run a node you can follow the official documentation at https://docs.chain.link/docs/running-a-chainlink-node. Make sure to understnad the requirements. You will need access to a PostgreSQL server and ELASTOS sidechain node.
+The Chainlink node listens for on-chain requests for data and responds with the requested data in exchange for payment in LINK. To run a node you can follow the official documentation at https://docs.chain.link/docs/running-a-chainlink-node. Make sure to understand the requirements. You will need access to a PostgreSQL server and ELASTOS sidechain node.
 
 If you are using Kubernetes, consider using our Helm chart https://github.com/vulcanlink/charts/tree/master/chainlink.
 
@@ -169,3 +169,8 @@ Create ELA/USD jobs for each API adapter you have deployed. Make sure to update 
   "endAt": null
 }
 ```
+
+## Done !
+Your node is setup and ready to respond to requests. If you wish to test you node, you can follow additional instructions from the Chainlink Docs to deploy your own Consumer contract https://docs.chain.link/docs/fulfilling-requests#create-a-request-to-your-node.
+
+Join our [Discord](https://discord.gg/uGwqJJH) for questions, support and to get added to Testnet Aggregators.
