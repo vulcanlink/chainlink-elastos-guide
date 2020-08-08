@@ -12,7 +12,7 @@ The Chainlink node listens for on-chain requests for data and responds with the 
 
 If you are using Kubernetes, consider using our Helm chart https://github.com/vulcanlink/charts/tree/master/chainlink.
 
-Because you will be runnign the node on ELASTOS, you will have to customize the `ETH_URL` and `LINK_CONTRACT_ADDRESS` environment variables. 
+Because you will be running the node on ELASTOS, you will have to customize the `ETH_URL` and `LINK_CONTRACT_ADDRESS` environment variables. 
 
 |                   Variable                   |                                                                                Description                                                                                |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -22,7 +22,7 @@ LINK_CONTRACT_ADDRESS | LINK token contract address
 #### ETH_URL
 Read below if you need info on running your Ethereum Sidechain.
 
-If you are running the ELASTOS Helm chart in your K8s cluster you can use `ws://elastos-geth.default.svc.cluster.local:20635`. For the testing purposes, you can also use our public endpoint `ws://testelaeth.vulcan.link/ws`.
+If you are running the ELASTOS Helm chart in your K8s cluster you can use `ws://elastos-geth.default.svc.cluster.local:20635`. For testing purposes, you can also use our public endpoint `ws://testelaeth.vulcan.link/ws`.
 
 #### LINK_CONTRACT_ADDRESS
 Currently there is no mainnet LINK token contract.
