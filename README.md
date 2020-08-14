@@ -42,7 +42,11 @@ See https://github.com/smartcontractkit/external-adapters-js for info on deployi
 - Fund Node and create jobs
 
 ### Metamask
-Go to https://elaeth.io/ to Download the ELASTOS Sidechain compatible Metamask extension. Note that you might have to temporarily disable regular Metamask in your browser when using ELAMetamask to avoid having 2 injected web3 instances. Go to "Add Network > Custom Network" and enter the ELASTOS Sidechain Network parameters.
+Go to https://elaeth.io/ to Download the ElaEth compatible Metamask extension for your browser (Chrome / Firefox / Opera). Go to the "Extensions" tab in your Chrome browser and turn on "Developer Mode". Now you can drag and drop the downloaded ELASTOS Metamask.
+
+If you also have regular Metamask installed, you should temporarily disable  it to avoid having 2 injected web3 instances. 
+
+Setup ElaEth Metamask with you password and recovery phrase. Go to "Add Network > Custom Network" and enter the ELASTOS Sidechain Network parameters:
 
 | Network Name | RPC URL | Explorer URL | Symbol |
 |----------|-------------|-----------------------|-----------------------|
